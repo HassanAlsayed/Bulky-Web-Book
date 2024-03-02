@@ -1,0 +1,53 @@
+﻿@model Category
+
+<form method="post">
+
+<div class="w-100 card border-0 p-4">
+        <div class="card-header bg-dark" data-bs-theme="dark" ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Add Category</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body border p-4">
+
+        <div class="form-floating py-1 col-12 row">
+            <input asp-for="@Model.Name" class="form-control border shadow" />
+            <label asp-for="Name" class="ms-2"></label>
+            <span asp-validation-for="Name" class="text-danger"></span>
+           
+        </div>
+        <div class="form-floating py-1 col-12 row">
+            <input asp-for="@Model.DisplayOrder" class="form-control border shadow" />
+            <label asp-for="DisplayOrder" class="ms-2"></label>
+                <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+           
+        </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary" style="height: 40px;">
+                            <i class="bi bi-check-circle"></i> Add
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-grid gap-2">
+                        <a asp-controller="Category" asp-action="Index" class="btn btn-primary" style="height: 40px;">
+                            <i class="bi bi-x-circle"></i> Cancel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</form>
+
+@section scripts
+{
+  @{
+      <partial name="_ValidationScriptsPartial" />
+  }
+}

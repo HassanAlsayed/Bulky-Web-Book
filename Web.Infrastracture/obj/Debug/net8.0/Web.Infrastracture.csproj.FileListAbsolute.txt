@@ -1,0 +1,17 @@
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\bin\Debug\net8.0\Web.Infrastracture.deps.json
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\bin\Debug\net8.0\Web.Infrastracture.runtimeconfig.json
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\bin\Debug\net8.0\Web.Infrastracture.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\bin\Debug\net8.0\Web.Infrastracture.pdb
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\Web.Infrastracture.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\Web.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\Web.Infrastracture.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\Web.Infrastracture.AssemblyInfo.cs
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\Web.Infrastracture.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\Web.Infrastracture.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\refint\Web.Infrastracture.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\Web.Infrastracture.pdb
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\Web.Infrastracture.genruntimeconfig.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\ref\Web.Infrastracture.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\bin\Debug\net8.0\Web.Domain.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\bin\Debug\net8.0\Web.Domain.pdb
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Infrastracture\obj\Debug\net8.0\Web.Infrastracture.csproj.CopyComplete

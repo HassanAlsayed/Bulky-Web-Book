@@ -1,0 +1,14 @@
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\bin\Debug\net8.0\Web.Domain.deps.json
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\bin\Debug\net8.0\Web.Domain.runtimeconfig.json
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\bin\Debug\net8.0\Web.Domain.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\bin\Debug\net8.0\Web.Domain.pdb
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\Web.Domain.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\Web.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\Web.Domain.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\Web.Domain.AssemblyInfo.cs
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\Web.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\Web.Domain.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\refint\Web.Domain.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\Web.Domain.pdb
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\Web.Domain.genruntimeconfig.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Domain\obj\Debug\net8.0\ref\Web.Domain.dll

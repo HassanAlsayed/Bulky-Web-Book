@@ -1,0 +1,110 @@
+﻿@model ProductVM
+
+<form method="post" enctype="multipart/form-data">
+
+    <div class="w-100 card border-0 p-4">
+        <div class="card-header bg-dark" data-bs-theme="dark" ml-0 py-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="text-white py-2">Add Product</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-body border p-4">
+
+            <div class="form-floating py-1 col-12 row">
+                <input asp-for="@Model.Product.Title" class="form-control border shadow" />
+                <label asp-for="@Model.Product.Title" class="ms-2"></label>
+                <span asp-validation-for="@Model.Product.Title" class="text-danger"></span>
+            </div>
+
+            <div class=" py-1 col-12 row">
+                <label asp-for="Product.Description" class="ms-2 text-muted"></label>
+                <textarea asp-for="@Model.Product.Description" class="form-control border shadow"></textarea>
+                <span asp-validation-for="Product.Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating py-1 col-12 row">
+                <input asp-for="@Model.Product.ISBN" class="form-control border shadow" />
+                <label asp-for="Product.ISBN" class="ms-2"></label>
+                <span asp-validation-for="Product.ISBN" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating py-1 col-12 row">
+                <input asp-for="@Model.Product.Author" class="form-control border shadow" />
+                <label asp-for="Product.Author" class="ms-2"></label>
+                <span asp-validation-for="Product.Author" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating py-1 col-12 row">
+                <input asp-for="@Model.Product.ListPrice" class="form-control border shadow" />
+                <label asp-for="Product.ListPrice" class="ms-2"></label>
+                <span asp-validation-for="Product.ListPrice" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating py-1 col-12 row">
+                <input asp-for="@Model.Product.Price" class="form-control border shadow" />
+                <label asp-for="Product.Price" class="ms-2"></label>
+                <span asp-validation-for="Product.Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating py-1 col-12 row">
+                <input asp-for="@Model.Product.Price50" class="form-control border shadow" />
+                <label asp-for="Product.Price50" class="ms-2"></label>
+                <span asp-validation-for="Product.Price50" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating py-1 col-12 row">
+                <input asp-for="@Model.Product.Price100" class="form-control border shadow" />
+                <label asp-for="Product.Price100" class="ms-2"></label>
+                <span asp-validation-for="Product.Price100" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating py-1 col-12 row">
+                <select asp-for="@Model.Product.CategoryId" asp-items="@Model.CategoryList" class="form-select border shadow">
+                    <option disabled selected>--select category</option>
+                    </select>
+                <label asp-for="Product.CategoryId" class="ms-2"></label>
+              
+            </div>
+
+            <div class="form-floating py-1 col-12 row">
+                <input asp-for="@Model.Product.ImageUrl" type="file" name="file" class="form-control border shadow"/>
+                <label asp-for="Product.ImageUrl" class="ms-2"></label>
+
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary" style="height: 40px;">
+                            <i class="bi bi-check-circle"></i> Add
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-grid gap-2">
+                        <a asp-controller="Product" asp-action="Index" class="btn btn-primary" style="height: 40px;">
+                            <i class="bi bi-x-circle"></i> Cancel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section scripts
+{
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons  lists   table visualblocks wordcount',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough |  align lineheight | numlist bullist indent outdent',
+        });
+    </script>
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

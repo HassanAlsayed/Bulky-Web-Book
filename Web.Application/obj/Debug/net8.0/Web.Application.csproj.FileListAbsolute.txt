@@ -1,0 +1,12 @@
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\bin\Debug\net8.0\Web.Application.deps.json
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\bin\Debug\net8.0\Web.Application.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\bin\Debug\net8.0\Web.Application.pdb
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\obj\Debug\net8.0\Web.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\obj\Debug\net8.0\Web.Application.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\obj\Debug\net8.0\Web.Application.AssemblyInfo.cs
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\obj\Debug\net8.0\Web.Application.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\obj\Debug\net8.0\Web.Application.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\obj\Debug\net8.0\refint\Web.Application.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\obj\Debug\net8.0\Web.Application.pdb
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\obj\Debug\net8.0\ref\Web.Application.dll
+C:\Users\user1\Desktop\BulkyWeb\Bulky\Web.Application\obj\Debug\net8.0\Web.Application.csproj.AssemblyReference.cache

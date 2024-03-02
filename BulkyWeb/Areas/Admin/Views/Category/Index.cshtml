@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Category>
+
+    <form method="post">
+        
+<div class="w-120 card border-0 p-4">
+        <div class="card-header bg-dark" data-bs-theme="dark" ml-0 py-3">
+        <div class="row">
+            <div class="col-20 text-center">
+                <h2 class="text-white py-2">Category List</h2>
+            </div>
+        </div>
+    </div>
+
+<div class="card-body border p-4">
+    <div class="row p-3">
+        <div class="col-6 offset-6 text-end">
+                <a asp-controller="Category" asp-action="AddCategory" class="btn btn-primary">
+       
+    <span class="bi bi-plus-circle"></span> Add New Category
+</a>
+            </div>
+        </div>
+<table class="table table-bordered table-striped mt-4 col-12">
+            <thead>
+                <tr>
+                    <th>Category Id</th>
+                    <th>Category Name</th>
+                    <th>Display Order</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var obj in Model.OrderBy(u => u.DisplayOrder))
+                {
+                    <tr>
+                        <td>@obj.Id</td>
+                        <td>@obj.Name</td>
+                        <td>@obj.DisplayOrder</td>
+                        <td>
+                            <div class="text-end">
+                                    <a asp-controller="Category" asp-action="UpdateCategory" asp-route-CatId="@obj.Id" class="btn btn-primary">
+                                    <span class="bi bi-pencil"></span> Edit
+                                </a>
+                                    <a asp-controller="Category" asp-action="DeleteCategory" asp-route-CatId="@obj.Id" class="btn btn-danger">
+                                    <span class="bi bi-trash"></span> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+</table>
+</div>
+</div>
+</form>
